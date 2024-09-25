@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1500px;
+    margin: auto;
+    font-size: large;
+}
+
+
+h1 {
+    background-color: red;
+}
+
+
+@media only screen and (max-width: 880px) {
+
+    body {
+        font-size: medium;
+    }
+
+    h1 {
+        background-color: green;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+
+    body {
+        font-size: x-small;
+    }
+
+    h1 {
+        background-color: blue;
+    }
+
+}
+
