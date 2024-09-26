@@ -1,0 +1,20 @@
+#container {
+    border: 2px solid red;
+    height: 100vh;
+}
+
+#main_body {
+    border: 2px solid yellow;
+    height: 80vh;
+    display: flex;
+}
+
+.menu {
+    width: 200px;
+    border: 2px solid orange;
+}
+
+.outlet {
+    width: 100%;
+    border: 2px solid ;
+}

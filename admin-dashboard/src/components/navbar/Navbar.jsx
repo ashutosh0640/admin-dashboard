@@ -9,25 +9,17 @@ const Navbar = () => {
                     <div>
                         <h1>Logo</h1>
                     </div>
-                    <div  >
-                        <h1>Logo</h1>
-                    </div>
-                    <div>
+                    
+                    <div class='list'>
                         <ul>
                             <li>
-                                <NavLink to="/home">Home</NavLink>
+                                <NavLink className='navlink' to="/home">Home</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/product">Product</NavLink>
+                                <NavLink className='navlink' to="/product">Product</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/user">User</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="#">About</NavLink>
-                            </li>
-                            <li>
-                                <NavLink to="#">Contact</NavLink>
+                                <NavLink className='navlink' to="/user">User</NavLink>
                             </li>
                         </ul>
                     </div>

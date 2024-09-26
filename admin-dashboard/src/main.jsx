@@ -7,15 +7,19 @@ import ErrorPage from './ErrorPage.jsx';
 import Home from './components/home/home.jsx';
 import Product from './components/product/Product.jsx';
 import User from './components/user/User.jsx';
+import Login from './components/login/Login.jsx'
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App />} >
-      <Route path="home" element={<Home />} />
-      <Route path="product" element={<Product />} />
-      <Route path="user" element={<User />} />
-    </Route>
+    <>
+      <Route path="/" element={<App />} errorElement={<ErrorPage />}>
+        <Route path="home" element={<Home />} />
+        <Route path="product" element={<Product />} />
+        <Route path="user" element={<User />} />
+      </Route>
+      <Route path="/login" element={<Login />} />
+    </>
   )
 );
 
